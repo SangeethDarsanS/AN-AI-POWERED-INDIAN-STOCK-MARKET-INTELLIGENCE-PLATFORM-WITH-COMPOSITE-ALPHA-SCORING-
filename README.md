@@ -469,23 +469,6 @@ for predictive market intelligence.
 - Options & derivatives analytics
 - Personalized investment recommendations
 
----
-
-# Contributors
-
-### Project Team
-
-**Esakki Raj**  
-**Nithin Ganesh P K**  
-**Sangeeth Darsan S**  
-**Sanjai Thilak V S**
-
-**Department of Artificial Intelligence & Data Science**  
-**Amrita College of Engineering and Technology**  
-**Anna University**
-
----
-
 # Research Impact
 
 This project demonstrates the practical integration of:
