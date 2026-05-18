@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030712;
+  color: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+.score-gradient-green {
+  background: linear-gradient(135deg, #00C853 0%, #00E676 100%);
+}
+
+.score-gradient-blue {
+  background: linear-gradient(135deg, #1565C0 0%, #2196F3 100%);
+}
+
+.score-gradient-yellow {
+  background: linear-gradient(135deg, #E65100 0%, #FFB300 100%);
+}
+
+.score-gradient-orange {
+  background: linear-gradient(135deg, #BF360C 0%, #FF6D00 100%);
+}
+
+.score-gradient-red {
+  background: linear-gradient(135deg, #B71C1C 0%, #D50000 100%);
+}
+
+.card {
+  @apply bg-gray-900 border border-gray-800 rounded-xl p-4;
+}
+
+.badge {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold;
+}
+
+.btn-primary {
+  @apply bg-india-orange hover:bg-orange-600 text-white font-semibold px-4 py-2 rounded-lg transition-colors duration-200;
+}
+
+.positive { color: #00C853; }
+.negative { color: #D50000; }
+.neutral { color: #9CA3AF; }
